@@ -20,4 +20,13 @@ public class NewClass2 {
     public String getC() {
         return c;
     }
+
+    @Override
+    public String toString() {
+        return "NewClass2{" +
+                "a=" + a +
+                ", b='" + b + '\'' +
+                ", c='" + c + '\'' +
+                '}';
+    }
 }
